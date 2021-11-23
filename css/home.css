@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Lato", sans-serif;
+}
+
+
+body{
+  background:url(../assets/gamebg.jpg) center/cover;
+}
+a {
+  text-decoration: none;
+}
+
+.container{
+  height:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+.title {
+  font-family: 900;
+  margin-bottom:5px;
+  font-size: 35px;
+}
+
+.sub-title {
+  font-family: 700;
+  margin-bottom:10px;
+  font-size: 25px;
+}
+
+.btn{
+  background-color: #ff3258;
+  color:white;
+  padding:15px 30px;
+  border:1px solid #ff3258;
+  transition:0.2s;
+}
+
+.btn:hover{
+  background-color: transparent;
+ 
+}
+
+@media (max-width: 450px){
+  .title{
+    font-size:20px;
+  }
+
+  .sub-title{
+    font-size:10px;
+  }
+}
